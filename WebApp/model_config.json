@@ -1,0 +1,14 @@
+{
+  "dataset_type": "waste_classification",
+  "class_names": [
+    "O",
+    "R"
+  ],
+  "biodegradable_classes": [
+    "O"
+  ],
+  "display_names": {
+    "O": "Organic Waste",
+    "R": "Recyclable Waste"
+  }
+}

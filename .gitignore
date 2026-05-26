@@ -1,0 +1,95 @@
+# ==========================
+# Python
+# ==========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+.venv/
+venv/
+env/
+ENV/
+
+# Environment Variables
+.env
+.env.*
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ==========================
+# Streamlit
+# ==========================
+.streamlit/secrets.toml
+
+# ==========================
+# Build / Distribution
+# ==========================
+build/
+dist/
+*.egg-info/
+
+# ==========================
+# Logs
+# ==========================
+logs/
+*.log
+
+# ==========================
+# Model Files
+# (ignore large trained models)
+# ==========================
+models/
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.h5
+*.pb
+*.weights
+
+# ==========================
+# Dataset
+# Remove these lines if
+# you want dataset uploaded
+# ==========================
+dataset/
+DATASET.zip
+*.csv
+
+# ==========================
+# Generated Outputs
+# ==========================
+outputs/
+predictions/
+results/
+
+# Images generated during runs
+generated/
+temp/
+
+# ==========================
+# IDE
+# ==========================
+.vscode/
+.idea/
+
+# ==========================
+# System Files
+# ==========================
+.DS_Store
+Thumbs.db
+
+# ==========================
+# Cache
+# ==========================
+.cache/
+.pytest_cache/
+.mypy_cache/
+
+# ==========================
+# Temporary Files
+# ==========================
+*.tmp
+*.bak
