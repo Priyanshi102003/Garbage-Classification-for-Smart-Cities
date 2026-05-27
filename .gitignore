@@ -49,14 +49,7 @@ models/
 *.pb
 *.weights
 
-# ==========================
-# Dataset
-# Remove these lines if
-# you want dataset uploaded
-# ==========================
-dataset/
-DATASET.zip
-*.csv
+
 
 # ==========================
 # Generated Outputs
