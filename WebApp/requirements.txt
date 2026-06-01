@@ -7,3 +7,4 @@ streamlit-webrtc>=0.47.0
 kagglehub>=0.1.0
 joblib
 scikit-learn
+plotly>=5.18.0
