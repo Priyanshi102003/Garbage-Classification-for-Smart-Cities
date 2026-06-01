@@ -40,7 +40,8 @@ st.set_page_config(
 
 BASE_DIR = Path(__file__).resolve().parent
 MODEL_CANDIDATES = [
-    BASE_DIR.parent / "Jupyter File" / "waste_classification_model.keras"
+    BASE_DIR / "waste_classification_model.keras",
+    BASE_DIR / "waste_classification_model.h5",
 ]
 DEMO_IMAGE_CANDIDATES = [
     BASE_DIR / "dataset-resized" / "plastic" / "plastic1.jpg",
