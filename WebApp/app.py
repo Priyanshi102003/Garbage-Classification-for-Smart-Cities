@@ -38,7 +38,7 @@ st.set_page_config(
 )
 
 
-BASE_DIR = Path(__file__).resolve().parent
+BASE_DIR = Path(__file__).resolve().parent.parent 
 MODEL_CANDIDATES = [
     BASE_DIR / "waste_classification_model.keras",
     BASE_DIR / "waste_classification_model.h5",
