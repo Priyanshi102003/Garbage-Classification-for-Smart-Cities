@@ -45,7 +45,6 @@ models/
 *.pt
 *.ckpt
 *.onnx
-*.h5
 *.pb
 *.weights
 
